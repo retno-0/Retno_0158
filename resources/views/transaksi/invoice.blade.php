@@ -58,6 +58,12 @@
         <th>Metode Pembayaran</th>
         <td>{{ ucfirst($transaksi->metode_pembayaran) }}</td>
     </tr>
+    <tr>
+        <th>Catatan Pesanan</th>
+        <td>
+            {{ $transaksi->catatan_pesanan ?? '-' }}
+        </td>
+    </tr>
 </table>
 
 <h4>Detail Donat</h4>

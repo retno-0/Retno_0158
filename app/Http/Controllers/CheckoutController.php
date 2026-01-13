@@ -83,6 +83,7 @@ class CheckoutController extends Controller
                 'total' => $totalCalculated,
                 'delivery_method' => $request->delivery_method,
                 'alamat' => $request->delivery_method == 'delivery' ? $request->alamat : null,
+                'catatan_pesanan' => $request->catatan_pesanan
             ]);
 
             foreach ($donatIds as $index => $id) {
