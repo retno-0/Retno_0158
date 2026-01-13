@@ -6,23 +6,17 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
-    {
-        Schema::table('transaksi', function (Blueprint $table) {
-            //
-        });
-    }
+    public function up()
+{
+    Schema::table('transaksi', function (Blueprint $table) {
+        $table->text('catatan_pesanan')->nullable()->after('metode_pembayaran');
+    });
+}
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::table('transaksi', function (Blueprint $table) {
-            //
-        });
-    }
+public function down()
+{
+    Schema::table('transaksi', function (Blueprint $table) {
+        $table->dropColumn('catatan_pesanan');
+    });
+}
 };
