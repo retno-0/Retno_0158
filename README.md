@@ -31,6 +31,14 @@
 
 ---
 
+## Fitur Tambahan
+
+1. **Catatan Pesanan**
+
+   * Menambah catatan(opsional) saat ingin men-checkout item keranjang
+   * 
+---
+
 ## Struktur Folder Penting
 
 * `app/Http/Controllers` → Berisi semua controller (DonatController, CartController, CheckoutController)
