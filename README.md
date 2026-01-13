@@ -36,7 +36,7 @@
 1. **Catatan Pesanan**
 
    * Menambah catatan(opsional) saat ingin men-checkout item keranjang
-   * 
+
 ---
 
 ## Struktur Folder Penting
