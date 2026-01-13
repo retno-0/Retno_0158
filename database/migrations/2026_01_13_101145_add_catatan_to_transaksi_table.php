@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up()
 {
-    Schema::table('transaksi', function (Blueprint $table) {
+    Schema::table('transaksis', function (Blueprint $table) {
         $table->text('catatan_pesanan')->nullable()->after('metode_pembayaran');
     });
 }
