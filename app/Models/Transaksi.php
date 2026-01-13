@@ -14,6 +14,7 @@ class Transaksi extends Model
         'metode_pembayaran',
         'delivery_method',
         'alamat',
+        'catatan_pesanan',
         'total',
     ];
 

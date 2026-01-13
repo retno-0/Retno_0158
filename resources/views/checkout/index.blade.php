@@ -101,6 +101,16 @@
                 <textarea name="alamat" class="form-control" rows="3"></textarea>
             </div>
 
+            <div class="mb-3">
+                <label>Catatan Pesanan</label>
+                <textarea 
+                    name="catatan_pesanan" 
+                    class="form-control" 
+                    rows="3"
+                    placeholder="Contoh: jangan terlalu manis, pisahkan topping">
+                </textarea>
+            </div>
+
             <button type="submit" class="btn btn-success">Bayar & Cetak Invoice</button>
         </form>
     @endif
